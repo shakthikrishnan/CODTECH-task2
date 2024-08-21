@@ -1,0 +1,37 @@
+# CODTECH-task2
+grade = 0
+total = 0
+for grade in range(0,5):
+
+ if grade >= 0 and grade <= 100:
+  grade = grade + int(input('What was your score: '))
+
+ elif grade >= 101: 
+
+  grade += int(input('It should be a number from 0 to 100, what was your 
+score: '))
+
+if 93<=grade <= 100:
+   print 'A'
+elif 90 <= grade < 93:
+  print 'A-'
+elif 87 <= grade < 90:
+  print 'B+'
+elif 83 <= grade < 87:
+  print 'B'
+elif 80 <= grade < 83:
+  print 'B-'
+elif 77 <= grade < 80:
+  print 'C+'
+elif 73 <= grade < 77:
+  print 'C'
+elif 70 <= grade < 73:
+  print 'C-'
+elif 67 <= grade < 60:
+  print 'D+'
+elif 63 <= grade < 67:
+  print 'D'
+elif 60 <= grade < 63:
+  print 'D-'
+elif grade < 60:
+  print 'F'
